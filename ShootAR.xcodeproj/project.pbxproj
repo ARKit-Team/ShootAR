@@ -11,6 +11,10 @@
 		75DC61DF2A444F0F007B1913 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DC61DE2A444F0F007B1913 /* ContentView.swift */; };
 		75DC61E12A444F11007B1913 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75DC61E02A444F11007B1913 /* Assets.xcassets */; };
 		75DC61E42A444F11007B1913 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75DC61E32A444F11007B1913 /* Preview Assets.xcassets */; };
+		75DC61EB2A444F64007B1913 /* ARViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DC61EA2A444F64007B1913 /* ARViewContainer.swift */; };
+		75DC61ED2A4450C3007B1913 /* SkeletonJoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DC61EC2A4450C3007B1913 /* SkeletonJoint.swift */; };
+		75DC61EF2A445150007B1913 /* SkeletonBone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DC61EE2A445150007B1913 /* SkeletonBone.swift */; };
+		75DC61F12A4469CE007B1913 /* Bones.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DC61F02A4469CE007B1913 /* Bones.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		75DC61DE2A444F0F007B1913 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		75DC61E02A444F11007B1913 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		75DC61E32A444F11007B1913 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		75DC61EA2A444F64007B1913 /* ARViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewContainer.swift; sourceTree = "<group>"; };
+		75DC61EC2A4450C3007B1913 /* SkeletonJoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkeletonJoint.swift; sourceTree = "<group>"; };
+		75DC61EE2A445150007B1913 /* SkeletonBone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkeletonBone.swift; sourceTree = "<group>"; };
+		75DC61F02A4469CE007B1913 /* Bones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bones.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +61,10 @@
 			children = (
 				75DC61DC2A444F0F007B1913 /* ShootARApp.swift */,
 				75DC61DE2A444F0F007B1913 /* ContentView.swift */,
+				75DC61EA2A444F64007B1913 /* ARViewContainer.swift */,
+				75DC61EC2A4450C3007B1913 /* SkeletonJoint.swift */,
+				75DC61EE2A445150007B1913 /* SkeletonBone.swift */,
+				75DC61F02A4469CE007B1913 /* Bones.swift */,
 				75DC61E02A444F11007B1913 /* Assets.xcassets */,
 				75DC61E22A444F11007B1913 /* Preview Content */,
 			);
@@ -138,7 +150,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				75DC61DF2A444F0F007B1913 /* ContentView.swift in Sources */,
+				75DC61F12A4469CE007B1913 /* Bones.swift in Sources */,
+				75DC61EF2A445150007B1913 /* SkeletonBone.swift in Sources */,
 				75DC61DD2A444F0F007B1913 /* ShootARApp.swift in Sources */,
+				75DC61EB2A444F64007B1913 /* ARViewContainer.swift in Sources */,
+				75DC61ED2A4450C3007B1913 /* SkeletonJoint.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +286,7 @@
 				DEVELOPMENT_TEAM = JMJM53PGNF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app needs access to the camera to enable Augmented Reality";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +316,7 @@
 				DEVELOPMENT_TEAM = JMJM53PGNF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app needs access to the camera to enable Augmented Reality";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

@@ -16,6 +16,7 @@
 		75DC61EF2A445150007B1913 /* SkeletonBone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DC61EE2A445150007B1913 /* SkeletonBone.swift */; };
 		75DC61F12A4469CE007B1913 /* Bones.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DC61F02A4469CE007B1913 /* Bones.swift */; };
 		75DC61F32A448052007B1913 /* BodySkeleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DC61F22A448052007B1913 /* BodySkeleton.swift */; };
+		A229A8692A46F19100B94F49 /* MultiPeer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A229A8682A46F19100B94F49 /* MultiPeer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		75DC61EE2A445150007B1913 /* SkeletonBone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkeletonBone.swift; sourceTree = "<group>"; };
 		75DC61F02A4469CE007B1913 /* Bones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bones.swift; sourceTree = "<group>"; };
 		75DC61F22A448052007B1913 /* BodySkeleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodySkeleton.swift; sourceTree = "<group>"; };
+		A229A8682A46F19100B94F49 /* MultiPeer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiPeer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				75DC61EE2A445150007B1913 /* SkeletonBone.swift */,
 				75DC61F02A4469CE007B1913 /* Bones.swift */,
 				75DC61F22A448052007B1913 /* BodySkeleton.swift */,
+				A229A8682A46F19100B94F49 /* MultiPeer.swift */,
 				75DC61E02A444F11007B1913 /* Assets.xcassets */,
 				75DC61E22A444F11007B1913 /* Preview Content */,
 			);
@@ -153,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				75DC61F32A448052007B1913 /* BodySkeleton.swift in Sources */,
+				A229A8692A46F19100B94F49 /* MultiPeer.swift in Sources */,
 				75DC61DF2A444F0F007B1913 /* ContentView.swift in Sources */,
 				75DC61F12A4469CE007B1913 /* Bones.swift in Sources */,
 				75DC61EF2A445150007B1913 /* SkeletonBone.swift in Sources */,

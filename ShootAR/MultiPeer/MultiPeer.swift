@@ -11,6 +11,8 @@ import MultipeerConnectivity
 
 class Model: NSObject, ObservableObject{
     
+    let shootARServiceType = "gt-mpeer"
+    
     var peerID: MCPeerID
     var session: MCSession
     var nearbyServiceAdvertiser: MCNearbyServiceAdvertiser?
@@ -23,13 +25,13 @@ class Model: NSObject, ObservableObject{
     }
     
     func advertise() {
-        nearbyServiceAdvertiser = MCNearbyServiceAdvertiser(peer: peerID, discoveryInfo: nil, serviceType: "gt-mpeer")
+        nearbyServiceAdvertiser = MCNearbyServiceAdvertiser(peer: peerID, discoveryInfo: nil, serviceType: shootARServiceType)
         nearbyServiceAdvertiser?.delegate = self
         nearbyServiceAdvertiser?.startAdvertisingPeer()
     }
     
     func invite() {
-        let browser = MCBrowserViewController(serviceType: "gt-mpeer", session: session)
+        let browser = MCBrowserViewController(serviceType: shootARServiceType, session: session)
         browser.delegate = self
         let scenes = UIApplication.shared.connectedScenes
         let windowScene = scenes.first as? UIWindowScene

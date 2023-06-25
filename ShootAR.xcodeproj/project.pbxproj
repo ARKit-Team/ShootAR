@@ -17,6 +17,7 @@
 		75DC61F12A4469CE007B1913 /* Bones.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DC61F02A4469CE007B1913 /* Bones.swift */; };
 		75DC61F32A448052007B1913 /* BodySkeleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DC61F22A448052007B1913 /* BodySkeleton.swift */; };
 		A229A8692A46F19100B94F49 /* MultiPeer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A229A8682A46F19100B94F49 /* MultiPeer.swift */; };
+		A229A86E2A48808A00B94F49 /* MultiPeerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A229A86D2A48808A00B94F49 /* MultiPeerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,8 @@
 		75DC61F02A4469CE007B1913 /* Bones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bones.swift; sourceTree = "<group>"; };
 		75DC61F22A448052007B1913 /* BodySkeleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodySkeleton.swift; sourceTree = "<group>"; };
 		A229A8682A46F19100B94F49 /* MultiPeer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiPeer.swift; sourceTree = "<group>"; };
+		A229A86D2A48808A00B94F49 /* MultiPeerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiPeerView.swift; sourceTree = "<group>"; };
+		A229A86F2A4881EA00B94F49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,7 @@
 		75DC61DB2A444F0F007B1913 /* ShootAR */ = {
 			isa = PBXGroup;
 			children = (
+				A229A86F2A4881EA00B94F49 /* Info.plist */,
 				75DC61DC2A444F0F007B1913 /* ShootARApp.swift */,
 				75DC61DE2A444F0F007B1913 /* ContentView.swift */,
 				75DC61EA2A444F64007B1913 /* ARViewContainer.swift */,
@@ -70,7 +74,7 @@
 				75DC61EE2A445150007B1913 /* SkeletonBone.swift */,
 				75DC61F02A4469CE007B1913 /* Bones.swift */,
 				75DC61F22A448052007B1913 /* BodySkeleton.swift */,
-				A229A8682A46F19100B94F49 /* MultiPeer.swift */,
+				A229A86C2A48805700B94F49 /* MultiPeer */,
 				75DC61E02A444F11007B1913 /* Assets.xcassets */,
 				75DC61E22A444F11007B1913 /* Preview Content */,
 			);
@@ -83,6 +87,15 @@
 				75DC61E32A444F11007B1913 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A229A86C2A48805700B94F49 /* MultiPeer */ = {
+			isa = PBXGroup;
+			children = (
+				A229A8682A46F19100B94F49 /* MultiPeer.swift */,
+				A229A86D2A48808A00B94F49 /* MultiPeerView.swift */,
+			);
+			path = MultiPeer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +176,7 @@
 				75DC61DD2A444F0F007B1913 /* ShootARApp.swift in Sources */,
 				75DC61EB2A444F64007B1913 /* ARViewContainer.swift in Sources */,
 				75DC61ED2A4450C3007B1913 /* SkeletonJoint.swift in Sources */,
+				A229A86E2A48808A00B94F49 /* MultiPeerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,7 +308,9 @@
 				DEVELOPMENT_TEAM = JMJM53PGNF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ShootAR/Info.plist;
 				INFOPLIST_KEY_NSCameraUsageDescription = "This app needs access to the camera to enable Augmented Reality";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "ShootAR uses the local network to connect players around you.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -324,7 +340,9 @@
 				DEVELOPMENT_TEAM = JMJM53PGNF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ShootAR/Info.plist;
 				INFOPLIST_KEY_NSCameraUsageDescription = "This app needs access to the camera to enable Augmented Reality";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "ShootAR uses the local network to connect players around you.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

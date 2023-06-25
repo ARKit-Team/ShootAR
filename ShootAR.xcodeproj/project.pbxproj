@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		057ED7132A47F0E9008F1F02 /* lasergreen.reality in Resources */ = {isa = PBXBuildFile; fileRef = 057ED7122A47F0E9008F1F02 /* lasergreen.reality */; };
+		059E6C312A48DD10002E8300 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059E6C302A48DD10002E8300 /* ViewController.swift */; };
+		059E6C332A48DEC5002E8300 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059E6C322A48DEC5002E8300 /* AppDelegate.swift */; };
+		059E6C372A48DF8D002E8300 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 059E6C342A48DF8C002E8300 /* LaunchScreen.storyboard */; };
+		059E6C382A48DF8D002E8300 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 059E6C352A48DF8D002E8300 /* Experience.rcproject */; };
+		059E6C392A48DF8D002E8300 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 059E6C362A48DF8D002E8300 /* Main.storyboard */; };
 		75DC61DD2A444F0F007B1913 /* ShootARApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DC61DC2A444F0F007B1913 /* ShootARApp.swift */; };
 		75DC61DF2A444F0F007B1913 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DC61DE2A444F0F007B1913 /* ContentView.swift */; };
 		75DC61E12A444F11007B1913 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75DC61E02A444F11007B1913 /* Assets.xcassets */; };
@@ -20,6 +26,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		057ED7122A47F0E9008F1F02 /* lasergreen.reality */ = {isa = PBXFileReference; lastKnownFileType = file; path = lasergreen.reality; sourceTree = "<group>"; };
+		059E6C302A48DD10002E8300 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		059E6C322A48DEC5002E8300 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		059E6C342A48DF8C002E8300 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		059E6C352A48DF8D002E8300 /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
+		059E6C362A48DF8D002E8300 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		75DC61D92A444F0F007B1913 /* ShootAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShootAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75DC61DC2A444F0F007B1913 /* ShootARApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShootARApp.swift; sourceTree = "<group>"; };
 		75DC61DE2A444F0F007B1913 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -63,6 +75,12 @@
 		75DC61DB2A444F0F007B1913 /* ShootAR */ = {
 			isa = PBXGroup;
 			children = (
+				059E6C352A48DF8D002E8300 /* Experience.rcproject */,
+				059E6C342A48DF8C002E8300 /* LaunchScreen.storyboard */,
+				059E6C362A48DF8D002E8300 /* Main.storyboard */,
+				059E6C302A48DD10002E8300 /* ViewController.swift */,
+				059E6C322A48DEC5002E8300 /* AppDelegate.swift */,
+				057ED7122A47F0E9008F1F02 /* lasergreen.reality */,
 				75DC61DC2A444F0F007B1913 /* ShootARApp.swift */,
 				75DC61DE2A444F0F007B1913 /* ContentView.swift */,
 				75DC61EA2A444F64007B1913 /* ARViewContainer.swift */,
@@ -144,6 +162,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				75DC61E42A444F11007B1913 /* Preview Assets.xcassets in Resources */,
+				059E6C392A48DF8D002E8300 /* Main.storyboard in Resources */,
+				059E6C372A48DF8D002E8300 /* LaunchScreen.storyboard in Resources */,
+				057ED7132A47F0E9008F1F02 /* lasergreen.reality in Resources */,
 				75DC61E12A444F11007B1913 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -155,6 +176,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				059E6C382A48DF8D002E8300 /* Experience.rcproject in Sources */,
+				059E6C312A48DD10002E8300 /* ViewController.swift in Sources */,
 				75DC61F32A448052007B1913 /* BodySkeleton.swift in Sources */,
 				A229A8692A46F19100B94F49 /* MultiPeer.swift in Sources */,
 				75DC61DF2A444F0F007B1913 /* ContentView.swift in Sources */,
@@ -162,6 +185,7 @@
 				75DC61EF2A445150007B1913 /* SkeletonBone.swift in Sources */,
 				75DC61DD2A444F0F007B1913 /* ShootARApp.swift in Sources */,
 				75DC61EB2A444F64007B1913 /* ARViewContainer.swift in Sources */,
+				059E6C332A48DEC5002E8300 /* AppDelegate.swift in Sources */,
 				75DC61ED2A4450C3007B1913 /* SkeletonJoint.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -291,7 +315,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ShootAR/Preview Content\"";
-				DEVELOPMENT_TEAM = JMJM53PGNF;
+				DEVELOPMENT_TEAM = 233M4MPW7G;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "This app needs access to the camera to enable Augmented Reality";
@@ -321,7 +345,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ShootAR/Preview Content\"";
-				DEVELOPMENT_TEAM = JMJM53PGNF;
+				DEVELOPMENT_TEAM = 233M4MPW7G;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "This app needs access to the camera to enable Augmented Reality";
